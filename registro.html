@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Cocina de Juan :)</title>
+    <link rel="icon" href="./imagenes/icono.png">
+    <script src="https://kit.fontawesome.com/7b27addec7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <nav class="izquierda">
+            <a class="boton" href="./index.html" style="color: beige;">Home</a>
+            <a class="boton" href="./about.html" style="color: beige;">Acerca de</a>
+            <a class="boton" href="./registro.html" style="color: beige;">Registro</a>
+            <a class="boton" href="./locales.html" style="color: beige;">Locales</a>
+            <a class="boton" href="./contact.html" style="color: beige;">Contacto</a>
+        </nav>
+        <h1 style="color: rgb(155, 227, 236);">La Cocina de Juan</h1>
+
+        <form action="show_data.html">
+
+            <fieldset>
+                <legend>Ingreso de datos personales</legend>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" name="nombre" id="nombre" size="30" maxlength="29"
+                    placeholder="Ingrese nombre..."><br>
+                <label for="apellido">Apellido:</label><br>
+                <input type="text" name="apellido" id="apellido" placeholder="Ingrese apellido..."><br>
+                <label for="edad">Edad:</label><br>
+                <input type="number" name="edad" id="Edad"><br>
+                <label for="mail">Mail:</label><br>
+                <input type="email" name="mail" id="mail" placeholder="Ingrese correo electrónico..."><br>
+                <label for="fechanac">Fecha Nac:</label><br>
+                <input type="date" name="fechanac" id="fechanac"><br>
+                <label for="clave">Clave:</label><br>
+                <input type="password" name="clave" id="clave" placeholder="Ingrese contraseña..."><br>
+                <label for="clave">Confirmación:</label><br>
+                <input type="password" name="clave" id="clave" placeholder="Confirme contraseña..."><br>
+                <label for="comentario">Comentario</label><br>
+                <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea><br>
+                <label>Seleccione genero:</label>
+                <select name="genero">
+                    <option>Femenino</option>
+                    <option>Masculino</option>
+                    <option>No binario</option>
+                </select><br>
+                <label for="preferencias">Preferencias:</label><br>
+                <input type="checkbox" name="preferencias" value="Carnes rojas" id="preferencias">Carnes rojas <br>
+                <input type="checkbox" name="preferencias" value="Carnes blancas" id="preferencias">Carnes blancas <br>
+                <input type="checkbox" name="preferencias" value="Mariscos" id="preferencias">Mariscos <br>
+                <input type="checkbox" name="preferencias" value="Cocina vegetariana" id="preferenciass">Cocina
+                vegetariana <br>
+                <input type="checkbox" name="preferencias" value="Cocina vegana" id="preferenciass">Cocina vegana <br>
+                <input type="checkbox" name="preferencias" value="Sin Tacc" id="preferencias">Sin Tacc <br>
+                <label for="soymejor">Soy mejor:</label><br>
+                <input type="radio" name="soymejor" id="soymejor" value="Comiendo">Comiendo <br>
+                <input type="radio" name="soymejor" id="soymejor" value="Cocinando">Cocinando <br>
+                <input type="radio" name="soymejor" id="soymejor" value="Ambas">Ambas por igual <br>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Reset">
+            </fieldset>
+
+
+        </form>
+
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+        <nav>
+            <p style="text-align: center;">Seguinos en</p><br>
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://twitter.com/" target="_blank">
+                <i class="fab fa-twitter fa-2x"></i></a>
+        </nav><br>
+        <p>Todos los Derechos Reservados © 2021</p>
+        <p>Buenos Aires - Argentina</p>
+    </footer>
+
+</body>
+
+</html>
